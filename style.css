@@ -1,0 +1,106 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    gap: 40px;
+}
+
+.Carte-free {
+    width: 300px;
+    padding: 40px;
+    border-radius: 20px;
+    box-shadow: 0 10px 20px rgb(2, 4, 6, 8);
+    background-color: aliceblue;
+    height: 70%;
+}
+    
+.Carte-free h2 {
+    color: rgb(5, 2, 44);
+    padding-right: 150px;
+}
+
+.Carte-free p {
+     color: #777;
+     font-size: 14px;
+}
+
+.Carte-free h1 {
+    font-size: 36px;
+    margin: 40px 0;
+    padding-right: 150px;
+}
+.Carte-free ul {
+    list-style: none;
+    margin: 80px 0;
+}
+.Carte-free ul li {
+    margin-bottom: 20px;
+    align-items: center;
+}
+
+.btn1 {
+    width: 100%;
+    padding: 10px;
+    border-radius: 30px;
+    font-size: 16px;
+    background-color:#161037;
+    color: aliceblue;
+    margin-top: 30px;
+
+}
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #f7f7fc;
+    height: 100vh;
+    margin-bottom:20px;
+}
+.Carte-pro {
+    width: 300px;
+   
+    border-radius: 10px;
+    box-shadow: 0 10px 20px rgb(2, 4, 6, 8);
+    background-color: #211e31;
+    color: white;
+    height: 70%;
+    padding: 40px;
+}
+.Carte-pro h2 {
+    color: rgb(230, 230, 240);
+    padding-right: 150px;
+}
+.Carte-pro p {
+     color: #bbb8b8;
+     font-size: 14px;
+     padding-right: 80px;
+}
+.Carte-pro h1 {
+    font-size: 36px;
+    margin: 40px 0;
+    padding-right: 180px;    
+}
+.Carte-pro ul {
+    list-style: none;
+    margin: 60px 0;
+}
+.Carte-pro ul li {
+    margin-bottom: 10px;
+    align-items: center;
+}
+.btn2 {
+    width: 100%;
+    padding: 10px;
+    border-radius: 20px;
+    font-size: 16px;
+    background-color: white;
+    color: #090433;
+    margin-top: 20px;
+}
